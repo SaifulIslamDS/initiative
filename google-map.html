@@ -1,0 +1,60 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>RRF Online | Google Map</title>   
+        
+        <!-- CSS Style Sheets -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+        
+        
+        <!-- 23.7568323,90.3592457 -->
+        <!-- AIzaSyAdWxtsFC7LQe2oN9cBoNZ6EYIVnHbxVSU -->
+        <!-- AIzaSyAdWxtsFC7LQe2oN9cBoNZ6EYIVnHbxVSU -->
+        <!-- Googl Map Embed -->
+        <div class="section-padding" style="padding: 115px 0;">
+        	<div class="container">
+        		<div class="row">
+        			<div class="col-md-12">
+        				<h1>Google Map</h1>
+        					<div id="googleMap" style="width: 100%; height: 500px;"></div>
+        				
+							<div id="googleMap" style="width:100%;height:400px;"></div>
+
+							<script>
+							function myMap() {
+							var mapProp= {
+								center:new google.maps.LatLng(23.7568323,90.3592457),
+								zoom:18,
+								scrollwheel: false,
+							};
+							var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+							}
+							</script>
+
+							<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAdWxtsFC7LQe2oN9cBoNZ6EYIVnHbxVSU&callback=myMap"></script>
+        			
+        					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.734867450663!2d90.35924571435861!3d23.7568322944488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755bf59580725a5%3A0x76ee228dfc4c1420!2sAllah+Karim+Jame+Masjid+Super+Market!5e0!3m2!1sen!2sbd!4v1518867314664" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        			</div>
+        		</div>
+        	</div>
+        </div>
+        
+        
+      
+        
+        
+        <!-- Javascript Files -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+        
+    </body>
+</html>

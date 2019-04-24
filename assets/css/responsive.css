@@ -1,0 +1,155 @@
+/*		Medium Layout: 1280px.  	*/
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	
+	.boxed-btn, input[type=submit], button[type=submit] {
+		font-size: 13px;
+		padding: 13px 12px;
+	}	
+	.single-service-box {
+    	padding: 18px;
+	}
+	.hero-area h1 {
+		font-size: 36px;
+	}
+	.single-service-box-2 {
+		height: 220px;
+	}
+	.slide-item-wrapper h2 {
+		font-size: 52px;
+		line-height: 60px;
+	}
+	.pd-50 {
+    	padding-top: 30px;
+	}
+	.single-case-study {
+        height: 280px;
+	}
+	.blog-thumb-wrapper{
+		height: 200px;
+		margin: -20px;
+	}
+	.section-padding.service-section-2 {
+		padding-top: 30px;
+	}
+	.section-padding.service-section-2:before {
+		top: -46px;
+		width: 48%;
+	}
+	.boxed-case-study .single-case-study {
+    	height: 200px;
+	}
+	.case-study-box-preview {
+    	height: 250px;
+	}
+	.breadcrumb-area {
+		padding: 80px;
+		font-size: 18px;
+	}
+	
+}
+		
+/*		Tablet Layout: 768px.  		*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+
+	
+}
+	
+
+/*		Tablet & Mobile Layout: 768px.  		*/
+
+@media only screen and (max-width: 991px) {
+		/*Slicknav menu Starts*/
+	.slicknav_menu{
+		display: block;
+	}
+	
+	/*Slicknav menu ends*/
+	.logo {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.mainmenu {
+		display: none;
+	}
+	.hero-area {
+    	padding: 50px;
+	}
+	.hero-area .text-right {
+		text-align: left;
+	}
+	.header-area .text-right, .cta-area, .cta-area .text-right  {
+		text-align: center;
+	}	
+	.website-checker-form {
+    	margin-bottom: 30px;
+	}
+	.mobile-padding-fix {
+		padding-top: 0;
+		padding-bottom: 50px;
+	}
+	.mobile-text-left {
+    	text-align: left;
+	}
+	.section-padding {
+    	padding: 75px 0;
+	}
+	
+	.mobile-only-margin {
+    	height: 50px;
+	}
+	a.single-blog-box {
+    	min-height: 520px;
+	}
+	.padding-top-80 {
+    padding-top: 100px;
+	}
+	.hero-area h1 {
+    margin-top: 0px;
+    max-width: inherit;
+    font-size: 38px;
+	}
+	.hero-form {
+	margin-top: 30px;
+    position: relative;
+    max-width: 670px;
+	}
+	.footer-area-2, .social-link,  .copyright-area-2 p, .copyright-area-2 ul {
+    	text-align: center;
+	}
+	img.absolute-img-gallery-1 {
+    position: relative;
+    top: auto;
+	}
+	.tile-gallery.text-right {
+		text-align: left;
+	}
+	.service-section-2:before {
+    	display: none;
+	}
+	.service-box-2 {
+    min-height: inherit;
+	}
+	.section-padding.service-section-2::after {
+    width: 100%;
+	}
+	
+}
+
+
+
+/*		Mobile Layout: 320px.   	*/
+
+@media only screen and (max-width: 767px) {
+
+	
+	
+}
+
+/*		Wide Mobile Layout: 480px.  */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	
+}
+
