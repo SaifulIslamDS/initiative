@@ -1,5 +1,5 @@
 /*
-Template Name: Traffic
+Template Name: Initiative
 */
 
 /*
@@ -1834,18 +1834,18 @@ a.inline-btn .zmdi {
 
 /*Trafic FAQ*/
 
-.traffic-faq .panel-default>.panel-heading {background-color: transparent;}
+.Initiative-faq .panel-default>.panel-heading {background-color: transparent;}
 
-.traffic-faq .panel-default>.panel-heading+.panel-collapse>.panel-body {
+.Initiative-faq .panel-default>.panel-heading+.panel-collapse>.panel-body {
     border-top-width: 0px;
 }
 
-.traffic-faq.panel-group  .panel+.panel {
+.Initiative-faq.panel-group  .panel+.panel {
     margin-top: -0.6px;
     box-shadow: 0 0 0;
 }
 
-.traffic-faq .panel-heading a {
+.Initiative-faq .panel-heading a {
     color: #333;
     font-size: 15px;
     font-weight: 700;
@@ -1854,16 +1854,16 @@ a.inline-btn .zmdi {
     position: relative;
 }
 
-.traffic-faq .panel-heading {
+.Initiative-faq .panel-heading {
     padding: 0;
 }
 
-.traffic-faq .panel-heading a::after {
+.Initiative-faq .panel-heading a::after {
     content: "+";
     float: right;
     font-size: 30px;
     margin-top: -10px;
 }
-.traffic-faq .panel-heading a[aria-expanded="true"]::after{
+.Initiative-faq .panel-heading a[aria-expanded="true"]::after{
     content: "-";
 }
